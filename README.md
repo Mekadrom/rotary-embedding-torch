@@ -119,6 +119,20 @@ rotary_emb = RotaryEmbedding(
 )
 ```
 
+## Running Tests
+
+```bash
+$ python -m unittest discover
+```
+
+Or with coverage installed for line coverage:
+```bash
+$ coverage run -m unittest discover
+$ coverage report
+# or
+$ coverage html
+```
+
 ## Citations
 
 ```bibtex
